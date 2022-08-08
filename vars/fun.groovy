@@ -6,7 +6,7 @@ def ourDateStamp(String format)
    def d = new Date()
     if(format.equals('ddmmyy'))
     {
-        println("ddmmyy"
+        println("ddmmyy")
         return d.format('dd/MM/yy')
     }
     if(format.equals('mmddyy'))
