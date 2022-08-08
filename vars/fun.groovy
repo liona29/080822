@@ -1,6 +1,6 @@
 import java.util.Date
 
-def ourDateStamp(String format)
+def call(String format)
 {
    println("we in the methude")
    def d = new Date()
