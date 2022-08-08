@@ -3,13 +3,12 @@ import java.util.Date
 def ourDateStamp(String format)
 {
     d = new Date()
-    tz = TimeZone.getTimeZone('GMT')
     if(format.equals('ddmmyy')
     {
-        return d.format('dd/MM/yy', tz)
+        return d.format('dd/MM/yy')
     }
     if(format.equals('mmddyy')
     {
-        return d.format('MM/dd/yy', tz)
+        return d.format('MM/dd/yy')
     }
 }
